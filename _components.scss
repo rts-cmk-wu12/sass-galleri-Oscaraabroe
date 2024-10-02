@@ -1,0 +1,46 @@
+@import url(_variables.scss);
+@import url(_mixins.scss);
+#searchbar{
+    width: 95%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    input{
+        width: 100%;
+    };
+
+}
+.img--small{
+    @include mix--image;
+}
+header{
+    h1{
+        margin-bottom: 1rem;
+        margin-top: 1rem;
+    }
+    ul{
+        margin-bottom: 2em;
+    }
+}
+.header--items{
+    margin-left: 400px;
+    margin-right: 400px;
+    
+}
+nav{
+
+    ul{
+        cursor: pointer;
+        display: flex;
+        gap: 2em;
+        list-style: none;
+        
+        .dropdown-items{
+            display: none;
+
+        }
+        li{
+            color: #919191;
+        }
+    }
+}
