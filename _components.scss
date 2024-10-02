@@ -1,0 +1,67 @@
+@import url(_variables.scss);
+@import url(_mixins.scss);
+#searchbar{
+    width: 95%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    input{
+        width: 100%;
+        background-color: #919191;
+        border: none;
+    };
+
+}
+.dropdown--menu--items{
+    display: none;
+    position: relative;
+}
+.img--small{
+    max-height: 180px;
+}
+.footer--div{
+    margin: 0 auto;
+    width: 20%;
+    text-align: center;
+    margin-top: 4em;
+    margin-bottom: 20em;
+    i{
+        padding: 0 0.5rem 0 0.5rem;
+        font-size: 2em;
+        
+    }
+}
+.img--small{
+    @include mix--image;
+}
+header{
+    h1{
+        margin-bottom: 1rem;
+        margin-top: 1rem;
+    }
+    ul{
+        margin-bottom: 2em;
+    }
+}
+.header--items{
+    margin-left: 400px;
+    margin-right: 400px;
+    
+}
+nav{
+
+    ul{
+        cursor: pointer;
+        display: flex;
+        gap: 2em;
+        list-style: none;
+        
+        .dropdown-items{
+            display: none;
+
+        }
+        li{
+            color: #919191;
+        }
+    }
+}
