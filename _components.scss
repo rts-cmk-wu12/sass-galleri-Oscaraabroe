@@ -7,8 +7,29 @@
     align-items: center;
     input{
         width: 100%;
+        background-color: #919191;
+        border: none;
     };
 
+}
+.dropdown--menu--items{
+    display: none;
+    position: relative;
+}
+.img--small{
+    max-height: 180px;
+}
+.footer--div{
+    margin: 0 auto;
+    width: 20%;
+    text-align: center;
+    margin-top: 4em;
+    margin-bottom: 20em;
+    i{
+        padding: 0 0.5rem 0 0.5rem;
+        font-size: 2em;
+        
+    }
 }
 .img--small{
     @include mix--image;
